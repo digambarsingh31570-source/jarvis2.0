@@ -99,7 +99,7 @@
 #     print("isosceles triangle..")
 # else:
 #     print("scalene Triangle...")
-ch = input("enter value sir : ")
+# ch = input("enter value sir : ")
 # if ch.islower():
 #     print("lowercase letter..")
 # elif ch.isupper():
@@ -181,3 +181,80 @@ ch = input("enter value sir : ")
 #             print("view only..")
 # else:
 #     print("user not found...")
+# n = int(input("Enter a number sir : "))
+# count = 0
+# for i in range(1, n+1):
+#     if i % 2 == 0:
+#         count += 1
+# print("total count is :", count)
+# n = int(input("enter number sir : "))
+# if n < 0:
+#     n = -n
+
+# count = 0
+# if n == 0:
+#     count = 1
+# else:
+#     for i in str(n):
+#         count += 1
+# print("number of digits:",count)
+# ch = input("enter characters: ")
+# count = 0
+# for chr in ch:
+#     if chr in "aeiouAeiou":
+#         count += 1
+# print("total count is : ", count)
+# n = int(input("enter your digit sir : "))
+# sign = -1 if n < 0 else 1
+# n = abs(n)
+
+# rev = 0
+# while n > 0:
+#     digit = n%10
+#     rev = rev*10+digit
+#     n = n//10
+# rev = rev*sign
+# print("Reversed number :", rev)
+# n = int(input("enter number : "))
+# a =0
+# b = 1
+# for i in range(n):
+#     print(a, end="")
+#     c = a+b
+#     a = b
+#     b = c
+# n = int(input("Enter number : "))
+# if n <= 1:
+#     print("not prime")
+# else:
+#     for i in range(2, int(n**0.5)+1):
+#         if n % i == 0:
+#             print("not prime")
+#             break
+#     else:
+#             print("prime")
+# n = int(input("Enter number sir : "))
+# if n <= 1:
+#     print("not prime")
+# else:
+#     is_prime = True
+#     for i in range(2, n):
+#         if i%n == 0:
+#             is_prime = False
+#     if is_prime:
+#         print("Prime")
+#     else:
+#         print("not prime")
+# n = int(input("Enter digit sir : "))
+# for i in range(1, n+1):
+#     if(n%i == 0):
+#         print(i,end="")
+# n = int(input("enter number : "))
+# largest = 0
+# while n > 0:
+#     digit = n%10
+
+#     if digit > largest:
+#         largest = digit
+#     n = n//10
+# print(largest)
