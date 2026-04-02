@@ -258,3 +258,111 @@
 #         largest = digit
 #     n = n//10
 # print(largest)
+# n = int(input("enter number sir : "))
+# original = n
+# sum = 0
+# for i in str(n):
+#     digit = int(i)
+#     sum = sum+digit**3
+# if sum == original:
+#     print("True")
+# else:
+#     print("false")
+# ch = input("Enter character :")
+# count = 0
+# i = 0
+# for chr in ch:
+#     if chr.isupper():
+#         count += 1
+#     elif chr.islower():
+#         i += 1
+# print("total upper case is : ",count)
+# print("total lower case is : ", i)
+# n = int(input("Enter number sir : "))
+# even_sum = 0
+# odd_sum = 0
+# for i in range(1, n+1):
+#     if i % 2 == 0:
+#         even_sum += i
+#     else:
+#         odd_sum += i
+# print("total sum of odd", odd_sum)
+# print("total sum of even", even_sum)
+# n = int(input("Enter number sir : "))
+# for i in range(1, n+1):
+#    print("*"* i)
+# num = int(input("enter number sir : "))
+# for i in range(1, num+1):
+#     for j in range(1, i+1):
+#         print(j, end="")
+#     print()
+# num = int(input())
+# for val in range(2, num+1):
+#     for i in range(2, int(val**0.5)+1):
+#         if val%i == 0:
+#             break
+#         else:
+#             print(val, end=" ")
+# n = input("Enter number sir : ")
+
+# reverse = ""
+# for ch in n:
+#     reverse = ch+reverse
+# if reverse == n:
+#     print(True)
+# else:
+#     print(False)
+# n = int(input("Enter number sir : "))
+# sum = 0
+# for i in range(1, n):
+#     if n%i == 0:
+#         sum += i
+# if sum == n:
+#     print("True")
+# else:
+#     print("False")
+# num = int(input("Enter number sir : "))
+# original = num
+# fact = 0
+# while num > 0:
+#     digit = num%10
+#     sum = 1
+#     for i in range(1, digit+1):
+#         sum *= i
+#     sum += fact
+#     n = n//10
+# if sum == original:
+#     print("True")
+# else:
+#     print("False")
+#pyramid pattern
+# n = int(input("Enter number sir : "))
+# for i in range(1,n+1):
+#     spaces = n-i
+#     stars = 2*i-1
+#     print(" " * spaces + "*" * stars)
+# n = int(input("Enter number sir : "))
+# for i in range(1, n+1):
+#     spaces = i-1
+#     stars = 2*(n-i)+1
+#     print(" "*spaces + "*" * stars)
+# n = int(input("Enter number sir : "))
+# for i in range(1, n+1):
+#     print(" " * (n-i), end=" ")
+#     for j in range(1, i+1):
+#         print(j, end="")
+#     for j in range(i-1,0,-1):
+#         print(j, end="")
+        
+#     print()
+# hollow pyramid
+num = int(input("Enter number sir : "))
+for i in range(1, num+1):
+    print(" " * (num-i), end="")
+    for j in range(1, 2*i):
+        if i == 1 or i == num or j == 1 or j == 2*i-1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+
+    print()
