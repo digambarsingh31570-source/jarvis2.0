@@ -54,7 +54,7 @@
 # print("total bill = ", bill)
 # num  = float(input("Enter number : "))
 # if num == int(num):
-#     print("this number is integer value.")
+#     p0rint("this number is integer value.")
 # else:
 #     print("this number is decimal value..")
 # a = int(input("Enter your first number:"))
